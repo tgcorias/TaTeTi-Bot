@@ -1,0 +1,25 @@
+{
+  "name": "Discord Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgcorias/TaTeTi-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgcorias/TaTeTi-Bot/issues"
+  },
+  "homepage": "https://github.com/tgcorias/TaTeTi-Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
