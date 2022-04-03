@@ -22,7 +22,7 @@ client.on('message',(message)=>{
     };
 
     if (message.content == `${prefix}help`){
-        message.reply("Para más ayuda busca en google! :)");
+        message.reply("Example");
     };
 });
 
