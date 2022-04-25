@@ -23,7 +23,7 @@ client.on('message',(message)=>{
     }
     const user = message.author.id;
     const MessageCmd = message.content.toLowerCase().split(' ')[0];
-    const validCommand = Object.keys(commands).includes(MessageCmd);
+    const validCommand = Object.keys(commands).includes(MessageCmd) && message.author !== client.user;
 
     if (validCommand) {
         console.log(MessageCmd)
