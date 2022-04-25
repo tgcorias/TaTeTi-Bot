@@ -47,5 +47,13 @@ client.on('message',(message)=>{
     // if (message.content == `${prefix}help`){
     //     message.reply("Para más ayuda busca en google! :)");
     // };
+    if (message.content == 'hola'){
+        
+            message.reply(`Hola <@${message.author.id}>`);   
+    };
+
+    if (message.content == `${prefix}help`){
+        message.reply("Example");
+    };
 });
 
